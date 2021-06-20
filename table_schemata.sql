@@ -26,11 +26,11 @@ CREATE TABLE "dept_manager" (
 CREATE TABLE "employees" (
     "emp_no" int   NOT NULL,
     "emp_title" varchar(10)   NOT NULL,
-    "birth_date" varchar(12)   NOT NULL,
+    "birth_date" date   NOT NULL,
     "first_name" varchar(100)   NOT NULL,
     "last_name" varchar(100)   NOT NULL,
     "sex" varchar(2)   NOT NULL,
-    "hire_date" varchar(12)   NOT NULL,
+    "hire_date" date   NOT NULL,
     CONSTRAINT "pk_employees" PRIMARY KEY (
         "emp_no"
      )
